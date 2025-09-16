@@ -77,71 +77,71 @@
 ## 2.1 Интерфейс пользователя
 Главная страница платформа.  
 
-![Главная страница платформы]()  
+![Главная страница платформы](https://github.com/korhvimtv/code-collab/blob/main/Mockups/main-paig.png)  
 
 Окно регистрации нового пользователя.  
 
-![Окно регистрации нового пользователя]() 
+![Окно регистрации нового пользователя](https://github.com/korhvimtv/code-collab/blob/main/Mockups/sign-up.png) 
 
 Окно входа для зарегистрированного пользователя.  
 
-![Окно входа для зарегистрированного пользователя]().
+![Окно входа для зарегистрированного пользователя](https://github.com/korhvimtv/code-collab/blob/main/Mockups/sign-in.png).
 
 Аккаунт пользователям. 
 
-![Аккаунт пользователя]()  
+![Аккаунт пользователя](https://github.com/korhvimtv/code-collab/blob/main/Mockups/profile.png)  
 
 Изменения аккаунта пользователя. 
 
-![Изменения аккаунта пользователя]() 
+![Изменения аккаунта пользователя](https://github.com/korhvimtv/code-collab/blob/main/Mockups/profile-change.png) 
 
 Страница проекта. 
 
-![Страница проекта]() 
+![Страница проекта](https://github.com/korhvimtv/code-collab/blob/main/Mockups/project-profile.png) 
 
 Изменение страницы проекта. 
 
-![Изменение страницы проекта]()  
+![Изменение страницы проекта](https://github.com/korhvimtv/code-collab/blob/main/Mockups/projects-change.png)  
 
 Страница настройки проекта.  
 
-![Страница настройки проекта]()  
+![Страница настройки проекта](https://github.com/korhvimtv/code-collab/blob/main/Mockups/projects-settings.png)  
 
 Страница заданий проектов.  
 
-![Страница заданий проектов]() 
+![Страница заданий проектов](https://github.com/korhvimtv/code-collab/blob/main/Mockups/tasks-profile.png) 
 
 Создание задания.  
 
-![Создание задания]()  
+![Создание задания](https://github.com/korhvimtv/code-collab/blob/main/Mockups/task-creator.png)  
 
 Изменения задания.  
 
-![Изменения задания]()    
+![Изменения задания](https://github.com/korhvimtv/code-collab/blob/main/Mockups/task-editor.png)    
 
 Удаление задания.  
 
-![Удаление задания]()
+![Удаление задания](https://github.com/korhvimtv/code-collab/blob/main/Mockups/task-delete.png)
 
 Страница с файлами проекта.  
 
-![Страница с файлами проекта]()
-....
+![Страница с файлами проекта](https://github.com/korhvimtv/code-collab/blob/main/Mockups/files-profile.png)
+
 Загрузка файлов.  
 
-![Загрузка файлов]()
+![Загрузка файлов](https://github.com/korhvimtv/code-collab/blob/main/Mockups/task-load.png)
 
 Скачивания файлов.  
 
-![Скачивание файлов]()
+![Скачивание файлов](https://github.com/korhvimtv/code-collab/blob/main/Mockups/task-download.png)
 
 Удаление файлов.  
 
-![Удаление файлов]()
+![Удаление файлов](https://github.com/korhvimtv/code-collab/blob/main/Mockups/task-delete.png)
 
 Чат.  
 
-![Чат]()
+![Чат](https://github.com/korhvimtv/code-collab/blob/main/Mockups/messanger.png)
 
 <a name="user_specifications"/>
 
