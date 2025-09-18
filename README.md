@@ -11,10 +11,4 @@ and more...
 
 [SRS of platform](https://github.com/korhvimtv/code-collab/blob/main/Requirements/SRS.md)
 
-[User interface images]()
-
-[Diagrams]()
-
-[Phyton Code]()
-
-[PyQT Code]()
+[Mockups](https://github.com/korhvimtv/code-collab/tree/main/Mockups)
