@@ -2,7 +2,7 @@
 
 ![Python 3.13+](https://img.shields.io/badge/Python-3.13+-green.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-lightblue.svg)
-![PyQT6](https://img.shields.io/badge/PyQT-6.9+-lightred.svg)
+![PyQT6](https://img.shields.io/badge/PyQT-6.9+-red.svg)
 
 **CodeCollab** — platform for developers, who wants to work in a big team on projects with a lot of features like:
 - File System
