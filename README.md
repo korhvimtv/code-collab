@@ -4,7 +4,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-lightblue.svg)
 ![PyQT6](https://img.shields.io/badge/PyQT-6.9+-red.svg)
 
-**CodeCollab** — platform for developers, who wants to work in a big team on projects with a lot of features like:
+**CodeCollab** — platform for developers, who wants to work in a big team on projects with features like:
 - File System
 - Task System
 - Chat
