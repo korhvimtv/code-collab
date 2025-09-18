@@ -1,6 +1,6 @@
 # CodeCollab
 
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green.svg)](https://www.python.org/)
+[![Python 3.13+](https://img.shields.io/badge/Python-3.13+-green.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.68+-lightblue.svg)](https://fastapi.tiangolo.com/)
 
 **CodeCollab** — platform for developers, who wants to work in a big team on projects with a lot of features like :
