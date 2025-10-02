@@ -1,18 +1,15 @@
 # CodeCollab
 
- Platform, which can help you with work in team on your projects.
+![Python 3.13+](https://img.shields.io/badge/Python-3.13+-green.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-lightblue.svg)
+![PyQT6](https://img.shields.io/badge/PyQT-6.9+-red.svg)
 
-This platform made for online using.
-
-#### Language: Python (FastAPI);
-#### Interface language: PyQT (maybe it will change).
+**CodeCollab** — platform for developers, who wants to work in a big team on projects with features like:
+- File System
+- Task System
+- Chat
+and more...
 
 [SRS of platform](https://github.com/korhvimtv/code-collab/blob/main/Requirements/SRS.md)
 
-[User interface images]()
-
-[Diagrams]()
-
-[Phyton Code]()
-
-[PyQT Code]()
+[Mockups](https://github.com/korhvimtv/code-collab/tree/main/Mockups)
