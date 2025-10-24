@@ -1,9 +1,9 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import select 
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 
-from user_models import User
-from user_models import UserCreate
+from user_models import User, UserUpdate
+from user_models import UserCreate, UserUpdate
 
 def get_user(db: Session, user_id: int) -> Optional[User]:
     return db.execute(select(User).filter(User.id == user_id)).scalars().first()
@@ -17,6 +17,22 @@ def create_user(db: Session, user: UserCreate) -> User:
         username=user.username, 
         email=user.email
     )
+    db.add(db_user)
+    db.commit()
+    db.refresh(db_user)
+    return db_user
+
+def update_user(db: Session, user_id: int, user: UserUpdate) -> Optional[User]:
+    db_user = db.query(User).filter(User.id == user_id).first()
+
+    if not db_user:
+        return None
+
+    update_data: Dict[str, Any] = user.model_dump(exclude_unset=True)
+
+    for key, value in update_data.items():
+        setattr(db_user, key, value)
+
     db.add(db_user)
     db.commit()
     db.refresh(db_user)

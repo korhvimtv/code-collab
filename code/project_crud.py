@@ -1,9 +1,9 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import select
-from typing import Optional
+from typing import Optional, Dict, Any
 
 from user_models import User
-from project_models import Project, UserProjectAssociation, ProjectCreate, ProjectInvite
+from project_models import Project, UserProjectAssociation, ProjectCreate, ProjectInvite, ProjectUpdate
 
 def create_project(db: Session, project_data: ProjectCreate, creator_id: int) -> Project:
     db_project = Project(
@@ -20,6 +20,22 @@ def create_project(db: Session, project_data: ProjectCreate, creator_id: int) ->
     )
     db.add(creator_link)
     
+    db.commit()
+    db.refresh(db_project)
+    return db_project
+
+def update_project(db: Session, project_id: int, project: ProjectUpdate) -> Optional[Project]:
+    db_project = db.query(Project).filter(Project.id == project_id).first()
+
+    if not db_project:
+        return None
+
+    update_data: Dict[str, Any] = project.model_dump(exclude_unset=True)
+
+    for key, value in update_data.items():
+        setattr(db_project, key, value)
+
+    db.add(db_project)
     db.commit()
     db.refresh(db_project)
     return db_project

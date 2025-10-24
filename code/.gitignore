@@ -1,5 +1,11 @@
 venv/
 
+.venv
+
+.idea
+
+init-scripts/
+
 __pycache__/
 
 .env

@@ -30,10 +30,18 @@ class Project(Base):
         cascade="all, delete-orphan"
     )
 
+    task_association: Mapped[List["TaskProjectAssociation"]] = relationship(
+        back_populates='project',
+    )
+
 class ProjectCreate(BaseModel):
     title: str
     description: Optional[str] = None
-    
+
+class ProjectUpdate(BaseModel):
+    title: Optional[str] = None
+    description: Optional[str] = None
+
 class ProjectMember(BaseModel):
     user_id: int
     username: str
