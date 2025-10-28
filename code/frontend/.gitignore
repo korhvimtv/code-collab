@@ -1,11 +1,15 @@
 *
 
+node_modules/
+dist/
+.env
+.idea/
+eslint.config.js
+.eslintrc.cjs
+
 !/.gitignore
 
 !*/
-
-eslint.config.js
-.eslintrc.cjs
 
 !*.jsx
 !*.css
