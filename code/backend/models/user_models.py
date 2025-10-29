@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String
 from pydantic import BaseModel
-from database import Base
+from core.database import Base
 from sqlalchemy.orm import relationship, Mapped
 from typing import List, Optional
 

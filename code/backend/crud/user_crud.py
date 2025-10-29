@@ -2,8 +2,9 @@ from sqlalchemy.orm import Session
 from sqlalchemy import select 
 from typing import List, Optional, Dict, Any
 
-from user_models import User, UserCreate, UserUpdate
-from auth import create_password_hash, verify_password
+from models.user_models import User, UserCreate, UserUpdate
+from core.auth import create_password_hash
+
 
 def get_user(db: Session, user_id: int) -> Optional[User]:
     return db.execute(select(User).filter(User.id == user_id)).scalars().first()

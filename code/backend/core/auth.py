@@ -11,7 +11,7 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from sqlalchemy.orm import Session
 
 from database import SessionLocal
-from user_models import User
+from models.user_models import User
 
 def get_db():
     db = SessionLocal()

@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship, Mapped, mapped_column
 from pydantic import BaseModel
 from typing import List, Optional
 
-from database import Base 
+from core.database import Base
 from user_models import User 
 
 class UserProjectAssociation(Base):

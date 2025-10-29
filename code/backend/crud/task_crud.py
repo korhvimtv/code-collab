@@ -2,9 +2,9 @@ from sqlalchemy.orm import Session
 from sqlalchemy import select
 from typing import Optional, Dict, Any, List
 
-from project_models import Project
-from user_models import User
-from task_models import Task, TaskInvite, TaskCreate, TaskResponse, TaskProjectAssociation, TaskUpdate, TaskProject
+from models.project_models import Project
+from models.user_models import User
+from models.task_models import Task, TaskInvite, TaskCreate, TaskResponse, TaskProjectAssociation, TaskUpdate, TaskProject
 
 def create_task(db: Session, task_data: TaskCreate, project_id: int, user_id: int) -> Task:
     db_task = Task(

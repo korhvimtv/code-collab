@@ -1,9 +1,9 @@
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import Session
 from sqlalchemy import select
 from typing import Optional, Dict, Any
 
-from user_models import User
-from project_models import Project, UserProjectAssociation, ProjectCreate, ProjectInvite, ProjectUpdate
+from models.user_models import User
+from models.project_models import Project, UserProjectAssociation, ProjectCreate, ProjectInvite, ProjectUpdate
 
 def create_project(db: Session, project_data: ProjectCreate, creator_id: int) -> Project:
     db_project = Project(
